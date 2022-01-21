@@ -1,6 +1,8 @@
 class IntStack
   @stack: Array[Integer]
+  @default_value: Integer
 
+  def initialize: (Integer) -> untyped
   def push: (Integer) -> nil
-  def pop: -> Integer?
+  def pop: -> Integer
 end
