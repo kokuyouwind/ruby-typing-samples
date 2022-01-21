@@ -1,0 +1,6 @@
+class IntStack
+  @stack: Array[Integer]
+
+  def push: (Integer) -> nil
+  def pop: -> Integer?
+end
