@@ -1,0 +1,8 @@
+class Stack[E]
+  @stack: Array[E]
+  @default_value: E
+
+  def initialize: (E) -> untyped
+  def push: (E) -> nil
+  def pop: -> E
+end
