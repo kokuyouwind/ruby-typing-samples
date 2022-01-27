@@ -1,0 +1,3 @@
+class KSUID
+  def payload: -> String
+end
